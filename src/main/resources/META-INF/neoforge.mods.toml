@@ -1,23 +1,7 @@
-modLoader="javafml"
-loaderVersion="[4,)"
-license="MIT"
-
-[[mods]]
-    modId="goldenapple"
-    version="1.0.0"
-    displayName="Golden Apple Recipe"
-    description="Restores the enchanted golden apple crafting recipe"
-
-[[dependencies.goldenapple]]
-    modId="neoforge"
-    type="required"
-    versionRange="[26.1,)"
-    ordering="NONE"
-    side="BOTH"
-
-[[dependencies.goldenapple]]
-    modId="minecraft"
-    type="required"
-    versionRange="[26.1,)"
-    ordering="NONE"
-    side="BOTH"
+modLoader = 'javafml'
+loaderVersion = '[1,)'
+license = 'MIT'
+showAsResourcePack = false
+mods = [
+        { modId = 'goldenapple', version = '1.0.0', displayName = 'Golden Apple Recipe', description = 'Restores the enchanted golden apple crafting recipe' },
+]
