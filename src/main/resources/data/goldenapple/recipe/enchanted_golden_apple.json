@@ -7,8 +7,8 @@
     "GGG"
   ],
   "key": {
-    "G": { "item": "minecraft:gold_block" },
-    "A": { "item": "minecraft:apple" }
+    "G": {"item": "minecraft:gold_block"},
+    "A": {"item": "minecraft:apple"}
   },
   "result": {
     "count": 1,
