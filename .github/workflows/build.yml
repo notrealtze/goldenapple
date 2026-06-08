@@ -22,7 +22,7 @@ jobs:
           gradle-version: '9.5.1'
 
       - name: Build
-        run: gradle build
+        run: gradle build --stacktrace --info
         env:
           CI: true
 
