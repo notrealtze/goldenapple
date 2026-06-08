@@ -3,5 +3,5 @@ loaderVersion = '[1,)'
 license = 'MIT'
 showAsResourcePack = false
 mods = [
-        { modId = 'goldenapple', version = '1.0.0', displayName = 'Golden Apple Recipe', description = 'Restores the enchanted golden apple crafting recipe' },
+	{ modId = 'goldenapple', version = '1.0.0', displayName = 'Golden Apple Recipe', description = 'Restores the enchanted golden apple crafting recipe' },
 ]
