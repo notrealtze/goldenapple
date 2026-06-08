@@ -4,33 +4,18 @@
     "has_apple": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [
-          {
-            "items": "minecraft:apple"
-          }
-        ]
+        "items": [{"items": "minecraft:apple"}]
       }
     },
     "has_gold_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [
-          {
-            "items": "minecraft:gold_block"
-          }
-        ]
+        "items": [{"items": "minecraft:gold_block"}]
       }
     }
   },
-  "requirements": [
-    [
-      "has_apple",
-      "has_gold_block"
-    ]
-  ],
+  "requirements": [["has_apple", "has_gold_block"]],
   "rewards": {
-    "recipes": [
-      "goldenapple:egapple"
-    ]
+    "recipes": ["crafting:egapple"]
   }
 }
